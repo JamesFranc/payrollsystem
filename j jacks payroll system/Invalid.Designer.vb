@@ -34,7 +34,7 @@ Partial Class Invalid
         Me.lblInvalid.Name = "lblInvalid"
         Me.lblInvalid.Size = New System.Drawing.Size(159, 24)
         Me.lblInvalid.TabIndex = 13
-        Me.lblInvalid.Text = "Inavlid credentials"
+        Me.lblInvalid.Text = "Invalid credentials"
         '
         'Label1
         '
@@ -50,7 +50,7 @@ Partial Class Invalid
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(272, 249)
+        Me.ClientSize = New System.Drawing.Size(264, 241)
         Me.ControlBox = False
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lblInvalid)
@@ -64,6 +64,6 @@ Partial Class Invalid
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents lblInvalid As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Protected WithEvents lblInvalid As System.Windows.Forms.Label
 End Class
