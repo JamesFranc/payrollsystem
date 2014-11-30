@@ -25,7 +25,7 @@ Partial Class TimeClock
         Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.lblTIme = New System.Windows.Forms.Label()
+        Me.lblTime = New System.Windows.Forms.Label()
         Me.txtUserName = New System.Windows.Forms.TextBox()
         Me.lblUserName = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -48,15 +48,15 @@ Partial Class TimeClock
         'Timer1
         '
         '
-        'lblTIme
+        'lblTime
         '
-        Me.lblTIme.AutoSize = True
-        Me.lblTIme.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTIme.Location = New System.Drawing.Point(576, 355)
-        Me.lblTIme.Name = "lblTIme"
-        Me.lblTIme.Size = New System.Drawing.Size(66, 24)
-        Me.lblTIme.TabIndex = 1
-        Me.lblTIme.Text = "Label2"
+        Me.lblTime.AutoSize = True
+        Me.lblTime.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTime.Location = New System.Drawing.Point(576, 355)
+        Me.lblTime.Name = "lblTime"
+        Me.lblTime.Size = New System.Drawing.Size(66, 24)
+        Me.lblTime.TabIndex = 1
+        Me.lblTime.Text = "Label2"
         '
         'txtUserName
         '
@@ -136,18 +136,18 @@ Partial Class TimeClock
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.lblUserName)
         Me.Controls.Add(Me.txtUserName)
-        Me.Controls.Add(Me.lblTIme)
+        Me.Controls.Add(Me.lblTime)
         Me.Controls.Add(Me.Label1)
         Me.Name = "TimeClock"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.Text = "TimeClock"
-        Me.ResumeLayout(false)
-        Me.PerformLayout
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
 
-End Sub
+    End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
-    Friend WithEvents lblTIme As System.Windows.Forms.Label
+    Friend WithEvents lblTime As System.Windows.Forms.Label
     Friend WithEvents txtUserName As System.Windows.Forms.TextBox
     Friend WithEvents lblUserName As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label

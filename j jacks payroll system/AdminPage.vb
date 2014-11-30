@@ -6,6 +6,8 @@
     End Sub
 
     Private Sub btnTimeClock_Click(sender As Object, e As EventArgs) Handles btnTimeClock.Click
+        TimeClock.Location = Me.Location
+
         Me.Close()
         TimeClock.Show()
     End Sub

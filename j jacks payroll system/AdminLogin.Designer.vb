@@ -29,8 +29,8 @@ Partial Class AdminLogin
         Me.lblUserName = New System.Windows.Forms.Label()
         Me.txtUserName = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.lblTime = New System.Windows.Forms.Label()
+        Me.lblCurrentTime = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnTimeClock
@@ -100,33 +100,33 @@ Partial Class AdminLogin
         Me.Label4.Text = "J Jacks Administration"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label2
+        'lblTime
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(576, 355)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(66, 24)
-        Me.Label2.TabIndex = 16
-        Me.Label2.Text = "Label2"
+        Me.lblTime.AutoSize = True
+        Me.lblTime.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTime.Location = New System.Drawing.Point(576, 355)
+        Me.lblTime.Name = "lblTime"
+        Me.lblTime.Size = New System.Drawing.Size(66, 24)
+        Me.lblTime.TabIndex = 16
+        Me.lblTime.Text = "Label2"
         '
-        'Label3
+        'lblCurrentTime
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(450, 355)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(120, 24)
-        Me.Label3.TabIndex = 15
-        Me.Label3.Text = "Current Time"
+        Me.lblCurrentTime.AutoSize = True
+        Me.lblCurrentTime.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCurrentTime.Location = New System.Drawing.Point(450, 355)
+        Me.lblCurrentTime.Name = "lblCurrentTime"
+        Me.lblCurrentTime.Size = New System.Drawing.Size(120, 24)
+        Me.lblCurrentTime.TabIndex = 15
+        Me.lblCurrentTime.Text = "Current Time"
         '
         'AdminLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(654, 391)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.lblTime)
+        Me.Controls.Add(Me.lblCurrentTime)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.lblPW)
         Me.Controls.Add(Me.txtPW)
@@ -147,6 +147,6 @@ Partial Class AdminLogin
     Friend WithEvents lblUserName As System.Windows.Forms.Label
     Friend WithEvents txtUserName As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents lblTime As System.Windows.Forms.Label
+    Friend WithEvents lblCurrentTime As System.Windows.Forms.Label
 End Class
