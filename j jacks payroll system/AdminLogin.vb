@@ -1,5 +1,11 @@
 ﻿Public Class AdminLogin
 
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.DesktopLocation = New Point(100, 100)
+
+    End Sub
+
     Private Sub btnTimeClock_Click(sender As Object, e As EventArgs) Handles btnTimeClock.Click
         'If lblPW.Visible = False Then
         'lblUserName.Text = "Admin Number:"
@@ -19,19 +25,17 @@
 
     End Sub
 
-    Private Sub btnLogIn_Click(sender As Object, e As EventArgs) Handles btnLogIn.Click
-        If txtUserName.Text = "12345" Then
-            txtEmployeeNumber.Show()
-            dispEmployeeNumber.Text = txtUserName.Text
-            dispEmployeeNumber.Show()
-
-
+    Private Sub btnLogIn_Click(sender As Object, e As EventArgs) Handles btnSignIn.Click
+        If txtUserName.Text = "12345" And txtPW.Text = "12345" Then
+            Me.Close()
+            AdminPage.Show()
 
         Else
             MessageBox.Show("Wrong Password!")
         End If
 
     End Sub
+
 
 
 End Class
