@@ -22,6 +22,7 @@ Partial Class AdminPage
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.btnManageEmployee = New System.Windows.Forms.Button()
         Me.btnManageTime = New System.Windows.Forms.Button()
         Me.btnCheque = New System.Windows.Forms.Button()
@@ -29,9 +30,10 @@ Partial Class AdminPage
         Me.btnTimeClock = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.lblTIme = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.lblTime3 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'btnManageEmployee
@@ -114,15 +116,15 @@ Partial Class AdminPage
         Me.lblTIme.TabIndex = 6
         Me.lblTIme.Text = "Label2"
         '
-        'Label2
+        'lblTime3
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(576, 355)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(66, 24)
-        Me.Label2.TabIndex = 8
-        Me.Label2.Text = "Label2"
+        Me.lblTime3.AutoSize = True
+        Me.lblTime3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTime3.Location = New System.Drawing.Point(576, 355)
+        Me.lblTime3.Name = "lblTime3"
+        Me.lblTime3.Size = New System.Drawing.Size(66, 24)
+        Me.lblTime3.TabIndex = 8
+        Me.lblTime3.Text = "Label2"
         '
         'Label3
         '
@@ -146,13 +148,16 @@ Partial Class AdminPage
         Me.Label4.Text = "J Jacks Payroll Administration"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'Timer1
+        '
+        '
         'AdminPage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(654, 391)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.lblTime3)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.lblTIme)
         Me.Controls.Add(Me.Label1)
@@ -161,7 +166,9 @@ Partial Class AdminPage
         Me.Controls.Add(Me.btnCheque)
         Me.Controls.Add(Me.btnManageTime)
         Me.Controls.Add(Me.btnManageEmployee)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "AdminPage"
+        Me.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Text = "J. Jacks Administration"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -174,7 +181,10 @@ Partial Class AdminPage
     Friend WithEvents btnTimeClock As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents lblTIme As System.Windows.Forms.Label
-    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents lblTime3 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Timer2 As System.Windows.Forms.Timer
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
+
 End Class

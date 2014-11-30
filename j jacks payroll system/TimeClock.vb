@@ -1,13 +1,16 @@
 ﻿Public Class TimeClock
 
-    Private Property futureTime As Integer
 
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        lblTIme.Text = TimeOfDay.ToString("h:mm:ss")
+    Public Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+
+        lblTime.Text = TimeOfDay.ToString("h:mm:ss")
+
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         Me.DesktopLocation = New Point(100, 100)
+        Me.txtUserName.Focus()
 
         Timer1.Start()
 
@@ -15,8 +18,9 @@
 
     Private Sub btnAdminUser_Click(sender As Object, e As EventArgs) Handles btnAdminUser.Click
 
-        Me.Hide()
         AdminLogin.Show()
+        AdminLogin.Location = Me.Location
+        Me.Hide()
 
     End Sub
 
@@ -27,13 +31,21 @@
 
             mBox.Show()
             txtUserName.Text = ""
-            btnLogIn.Focus()
+            txtUserName.Focus()
 
         Else
             MessageBox.Show("Wrong Password!")
         End If
 
     End Sub
+
+    Private Sub TimeClock_FormClosed(sender As Object, e As FormClosedEventArgs) Handles Me.FormClosed
+
+        Application.Exit()
+
+    End Sub
+
+
 
 
 End Class

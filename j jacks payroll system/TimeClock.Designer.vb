@@ -25,7 +25,7 @@ Partial Class TimeClock
         Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.lblTIme = New System.Windows.Forms.Label()
+        Me.lblTime = New System.Windows.Forms.Label()
         Me.txtUserName = New System.Windows.Forms.TextBox()
         Me.lblUserName = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -48,22 +48,22 @@ Partial Class TimeClock
         'Timer1
         '
         '
-        'lblTIme
+        'lblTime
         '
-        Me.lblTIme.AutoSize = True
-        Me.lblTIme.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTIme.Location = New System.Drawing.Point(576, 355)
-        Me.lblTIme.Name = "lblTIme"
-        Me.lblTIme.Size = New System.Drawing.Size(66, 24)
-        Me.lblTIme.TabIndex = 1
-        Me.lblTIme.Text = "Label2"
+        Me.lblTime.AutoSize = True
+        Me.lblTime.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTime.Location = New System.Drawing.Point(576, 355)
+        Me.lblTime.Name = "lblTime"
+        Me.lblTime.Size = New System.Drawing.Size(66, 24)
+        Me.lblTime.TabIndex = 1
+        Me.lblTime.Text = "Label2"
         '
         'txtUserName
         '
         Me.txtUserName.Location = New System.Drawing.Point(247, 163)
         Me.txtUserName.Name = "txtUserName"
         Me.txtUserName.Size = New System.Drawing.Size(215, 20)
-        Me.txtUserName.TabIndex = 2
+        Me.txtUserName.TabIndex = 1
         '
         'lblUserName
         '
@@ -92,7 +92,7 @@ Partial Class TimeClock
         Me.btnAdminUser.Location = New System.Drawing.Point(12, 318)
         Me.btnAdminUser.Name = "btnAdminUser"
         Me.btnAdminUser.Size = New System.Drawing.Size(90, 61)
-        Me.btnAdminUser.TabIndex = 5
+        Me.btnAdminUser.TabIndex = 3
         Me.btnAdminUser.Text = "Admin Login"
         Me.btnAdminUser.UseVisualStyleBackColor = True
         '
@@ -103,7 +103,7 @@ Partial Class TimeClock
         Me.btnLogIn.Location = New System.Drawing.Point(310, 223)
         Me.btnLogIn.Name = "btnLogIn"
         Me.btnLogIn.Size = New System.Drawing.Size(89, 27)
-        Me.btnLogIn.TabIndex = 6
+        Me.btnLogIn.TabIndex = 2
         Me.btnLogIn.Text = "Clock In/Out"
         Me.btnLogIn.UseVisualStyleBackColor = True
         '
@@ -136,18 +136,21 @@ Partial Class TimeClock
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.lblUserName)
         Me.Controls.Add(Me.txtUserName)
-        Me.Controls.Add(Me.lblTIme)
+        Me.Controls.Add(Me.lblTime)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "TimeClock"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.Text = "TimeClock"
-        Me.ResumeLayout(false)
-        Me.PerformLayout
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
 
-End Sub
+    End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
-    Friend WithEvents lblTIme As System.Windows.Forms.Label
+    Friend WithEvents lblTime As System.Windows.Forms.Label
     Friend WithEvents txtUserName As System.Windows.Forms.TextBox
     Friend WithEvents lblUserName As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label

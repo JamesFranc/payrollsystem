@@ -5,7 +5,7 @@
 
     Private Sub mBox_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Me.TopMost = True
-        Me.DesktopLocation = New Point(150, 150)
+        Me.DesktopLocation = New Point(200, 200)
         tm.Interval = 3000
         lblEmpNum.Text = TimeClock.txtUserName.Text
         lblTime.Text = TimeOfDay.ToString("h:mm:ss")
