@@ -1,5 +1,7 @@
 ﻿Public Class TimeClock
 
+    Private Property futureTime As Integer
+
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         lblTIme.Text = TimeOfDay.ToString("h:mm:ss")
     End Sub
@@ -20,18 +22,20 @@
 
 
     Private Sub btnLogIn_Click(sender As Object, e As EventArgs) Handles btnLogIn.Click
+        
         If txtUserName.Text = "12345" Then
-            txtEmployeeNumber.Show()
-            dispEmployeeNumber.Text = txtUserName.Text
-            dispEmployeeNumber.Show()
 
-
+            mBox.Show()
+            txtUserName.Text = ""
+            btnLogIn.Focus()
 
         Else
             MessageBox.Show("Wrong Password!")
         End If
 
     End Sub
+
+
 End Class
 
 

@@ -110,11 +110,10 @@ Partial Class TimeClock
         'txtEmployeeNumber
         '
         Me.txtEmployeeNumber.AutoSize = True
-        Me.txtEmployeeNumber.Location = New System.Drawing.Point(244, 104)
+        Me.txtEmployeeNumber.Location = New System.Drawing.Point(250, 104)
         Me.txtEmployeeNumber.Name = "txtEmployeeNumber"
-        Me.txtEmployeeNumber.Size = New System.Drawing.Size(66, 13)
+        Me.txtEmployeeNumber.Size = New System.Drawing.Size(0, 13)
         Me.txtEmployeeNumber.TabIndex = 9
-        Me.txtEmployeeNumber.Text = "Employee #:"
         Me.txtEmployeeNumber.Visible = False
         '
         'dispEmployeeNumber
