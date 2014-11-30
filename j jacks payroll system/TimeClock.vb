@@ -26,16 +26,22 @@
 
 
     Private Sub btnLogIn_Click(sender As Object, e As EventArgs) Handles btnLogIn.Click
-        
-        If txtUserName.Text = "12345" Then
+
+        Dim EmpDB As New EmployeeDB
+        EmpDB.LoadDB()
+
+        If (EmpDB.search(txtUserName.Text)) Then
+            Dim tempEmp As Employee = EmpDB.getEmployee(txtUserName.Text)
 
             mBox.Show()
             txtUserName.Text = ""
             txtUserName.Focus()
 
         Else
-            Invalid.Show()
+        'MessageBox.Show("Wrong Username!")
+            Invalid.Show("Wrong Username")
         End If
+
 
     End Sub
 

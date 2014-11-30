@@ -30,20 +30,36 @@
     End Sub
 
     Private Sub btnLogIn_Click(sender As Object, e As EventArgs) Handles btnSignIn.Click
-        If txtUser.Text = "12345" And txtPW.Text = "12345" Then
-            AdminPage.Location = Me.Location
-            AdminPage.Show()
-            Me.Hide()
-            txtUser.Text = ""
-            txtPW.Text = ""
+
+        Dim EmpDB As New EmployeeDB
+        EmpDB.LoadDB()
+
+        If (EmpDB.search(txtUser.Text)) Then
+            Dim tempEmp As Employee = EmpDB.getEmployee(txtUser.Text)
+            If (txtPW.Text.Equals(tempEmp.password)) Then
+                If (tempEmp.admin) Then
+                    AdminPage.Location = Me.Location
+                    AdminPage.Show()
+                    Me.Hide()
+                    txtUser.Text = ""
+                    txtPW.Text = ""
+
+                Else
+                    'MessageBox.Show("No Admin Access!")
+                    Invalid.Show("No Admin Access")
+                End If
+
+            Else
+                'MessageBox.Show("Wrong Password!")
+                Invalid.Show("Wrong Password")
+            End If
 
         Else
-            Invalid.Show()
-            txtUser.Text = ""
-            txtPW.Text = ""
-            txtUser.Focus()
-
+            'MessageBox.Show("Wrong Username!")
+            Invalid.Show("Wrong Username")
         End If
+
+
 
     End Sub
 
