@@ -7,6 +7,7 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         Me.DesktopLocation = New Point(100, 100)
 
         Timer1.Start()
