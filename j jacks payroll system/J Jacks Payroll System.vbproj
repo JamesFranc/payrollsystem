@@ -81,6 +81,12 @@
     <Compile Include="AdminLogin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Invalid.Designer.vb">
+      <DependentUpon>Invalid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Invalid.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="mBox.Designer.vb">
       <DependentUpon>mBox.vb</DependentUpon>
     </Compile>
@@ -116,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AdminPage.resx">
       <DependentUpon>AdminPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invalid.resx">
+      <DependentUpon>Invalid.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mBox.resx">
       <DependentUpon>mBox.vb</DependentUpon>

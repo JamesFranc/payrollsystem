@@ -33,6 +33,7 @@ Partial Class TimeClock
         Me.btnLogIn = New System.Windows.Forms.Button()
         Me.txtEmployeeNumber = New System.Windows.Forms.Label()
         Me.dispEmployeeNumber = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -78,11 +79,11 @@ Partial Class TimeClock
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(123, 9)
+        Me.Label3.Location = New System.Drawing.Point(154, 9)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(423, 78)
+        Me.Label3.Size = New System.Drawing.Size(350, 39)
         Me.Label3.TabIndex = 4
-        Me.Label3.Text = "J JACKS TIRE SERVICE" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "TIME CLOCK"
+        Me.Label3.Text = "J Jacks Tire Service"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnAdminUser
@@ -124,11 +125,23 @@ Partial Class TimeClock
         Me.dispEmployeeNumber.Size = New System.Drawing.Size(0, 13)
         Me.dispEmployeeNumber.TabIndex = 10
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(225, 48)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(202, 39)
+        Me.Label2.TabIndex = 11
+        Me.Label2.Text = "Time Clock"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'TimeClock
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(654, 391)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.dispEmployeeNumber)
         Me.Controls.Add(Me.txtEmployeeNumber)
         Me.Controls.Add(Me.btnLogIn)
@@ -142,6 +155,7 @@ Partial Class TimeClock
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "TimeClock"
+        Me.ShowIcon = False
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.Text = "TimeClock"
         Me.ResumeLayout(False)
@@ -158,5 +172,6 @@ Partial Class TimeClock
     Friend WithEvents btnLogIn As System.Windows.Forms.Button
     Friend WithEvents txtEmployeeNumber As System.Windows.Forms.Label
     Friend WithEvents dispEmployeeNumber As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
 
 End Class

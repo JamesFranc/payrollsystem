@@ -35,7 +35,7 @@
             txtUser.Text = ""
             txtPW.Text = ""
         Else
-            MessageBox.Show("Wrong Password!")
+            Invalid.Show()
         End If
 
     End Sub

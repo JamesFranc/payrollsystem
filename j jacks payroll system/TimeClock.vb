@@ -34,7 +34,7 @@
             txtUserName.Focus()
 
         Else
-            MessageBox.Show("Wrong Password!")
+            Invalid.Show()
         End If
 
     End Sub
