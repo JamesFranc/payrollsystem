@@ -28,4 +28,7 @@
     End Sub
 
 
+    Private Sub btnManageEmployee_Click(sender As Object, e As EventArgs) Handles btnManageEmployee.Click
+
+    End Sub
 End Class

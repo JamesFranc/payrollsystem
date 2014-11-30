@@ -23,6 +23,8 @@
 
         TimeClock.Location = Me.Location
         TimeClock.Show()
+        TimeClock.txtUserName.Focus()
+
         Me.Hide()
 
     End Sub
@@ -34,8 +36,13 @@
             Me.Hide()
             txtUser.Text = ""
             txtPW.Text = ""
+
         Else
             Invalid.Show()
+            txtUser.Text = ""
+            txtPW.Text = ""
+            txtUser.Focus()
+
         End If
 
     End Sub
