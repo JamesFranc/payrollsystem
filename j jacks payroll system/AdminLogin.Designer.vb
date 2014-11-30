@@ -143,6 +143,7 @@ Partial Class AdminLogin
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "AdminLogin"
+        Me.ShowIcon = False
         Me.Text = "Admin Login"
         Me.ResumeLayout(False)
         Me.PerformLayout()
