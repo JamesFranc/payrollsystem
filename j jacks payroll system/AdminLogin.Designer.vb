@@ -22,15 +22,17 @@ Partial Class AdminLogin
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.btnTimeClock = New System.Windows.Forms.Button()
         Me.lblPW = New System.Windows.Forms.Label()
         Me.txtPW = New System.Windows.Forms.TextBox()
         Me.btnSignIn = New System.Windows.Forms.Button()
         Me.lblUserName = New System.Windows.Forms.Label()
-        Me.txtUserName = New System.Windows.Forms.TextBox()
+        Me.txtUser = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.lblTime = New System.Windows.Forms.Label()
+        Me.lblTime2 = New System.Windows.Forms.Label()
         Me.lblCurrentTime = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'btnTimeClock
@@ -40,7 +42,7 @@ Partial Class AdminLogin
         Me.btnTimeClock.Location = New System.Drawing.Point(12, 318)
         Me.btnTimeClock.Name = "btnTimeClock"
         Me.btnTimeClock.Size = New System.Drawing.Size(90, 61)
-        Me.btnTimeClock.TabIndex = 6
+        Me.btnTimeClock.TabIndex = 4
         Me.btnTimeClock.Text = "Time Clock"
         Me.btnTimeClock.UseVisualStyleBackColor = True
         '
@@ -50,7 +52,7 @@ Partial Class AdminLogin
         Me.lblPW.Location = New System.Drawing.Point(191, 186)
         Me.lblPW.Name = "lblPW"
         Me.lblPW.Size = New System.Drawing.Size(56, 13)
-        Me.lblPW.TabIndex = 13
+        Me.lblPW.TabIndex = 1
         Me.lblPW.Text = "Password:"
         '
         'txtPW
@@ -58,7 +60,7 @@ Partial Class AdminLogin
         Me.txtPW.Location = New System.Drawing.Point(264, 186)
         Me.txtPW.Name = "txtPW"
         Me.txtPW.Size = New System.Drawing.Size(215, 20)
-        Me.txtPW.TabIndex = 12
+        Me.txtPW.TabIndex = 2
         Me.txtPW.UseSystemPasswordChar = True
         '
         'btnSignIn
@@ -68,25 +70,25 @@ Partial Class AdminLogin
         Me.btnSignIn.Location = New System.Drawing.Point(327, 212)
         Me.btnSignIn.Name = "btnSignIn"
         Me.btnSignIn.Size = New System.Drawing.Size(89, 27)
-        Me.btnSignIn.TabIndex = 11
+        Me.btnSignIn.TabIndex = 3
         Me.btnSignIn.Text = "Sign in"
         Me.btnSignIn.UseVisualStyleBackColor = True
         '
         'lblUserName
         '
         Me.lblUserName.AutoSize = True
-        Me.lblUserName.Location = New System.Drawing.Point(189, 155)
+        Me.lblUserName.Location = New System.Drawing.Point(189, 159)
         Me.lblUserName.Name = "lblUserName"
         Me.lblUserName.Size = New System.Drawing.Size(58, 13)
-        Me.lblUserName.TabIndex = 10
+        Me.lblUserName.TabIndex = 5
         Me.lblUserName.Text = "Username:"
         '
-        'txtUserName
+        'txtUser
         '
-        Me.txtUserName.Location = New System.Drawing.Point(264, 152)
-        Me.txtUserName.Name = "txtUserName"
-        Me.txtUserName.Size = New System.Drawing.Size(215, 20)
-        Me.txtUserName.TabIndex = 9
+        Me.txtUser.Location = New System.Drawing.Point(264, 152)
+        Me.txtUser.Name = "txtUser"
+        Me.txtUser.Size = New System.Drawing.Size(215, 20)
+        Me.txtUser.TabIndex = 1
         '
         'Label4
         '
@@ -96,19 +98,19 @@ Partial Class AdminLogin
         Me.Label4.Location = New System.Drawing.Point(145, 9)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(388, 39)
-        Me.Label4.TabIndex = 14
+        Me.Label4.TabIndex = 6
         Me.Label4.Text = "J Jacks Administration"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'lblTime
+        'lblTime2
         '
-        Me.lblTime.AutoSize = True
-        Me.lblTime.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTime.Location = New System.Drawing.Point(576, 355)
-        Me.lblTime.Name = "lblTime"
-        Me.lblTime.Size = New System.Drawing.Size(66, 24)
-        Me.lblTime.TabIndex = 16
-        Me.lblTime.Text = "Label2"
+        Me.lblTime2.AutoSize = True
+        Me.lblTime2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTime2.Location = New System.Drawing.Point(576, 355)
+        Me.lblTime2.Name = "lblTime2"
+        Me.lblTime2.Size = New System.Drawing.Size(66, 24)
+        Me.lblTime2.TabIndex = 16
+        Me.lblTime2.Text = "Label2"
         '
         'lblCurrentTime
         '
@@ -120,20 +122,26 @@ Partial Class AdminLogin
         Me.lblCurrentTime.TabIndex = 15
         Me.lblCurrentTime.Text = "Current Time"
         '
+        'Timer1
+        '
+        '
         'AdminLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(654, 391)
-        Me.Controls.Add(Me.lblTime)
+        Me.Controls.Add(Me.lblTime2)
         Me.Controls.Add(Me.lblCurrentTime)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.lblPW)
         Me.Controls.Add(Me.txtPW)
         Me.Controls.Add(Me.btnSignIn)
         Me.Controls.Add(Me.lblUserName)
-        Me.Controls.Add(Me.txtUserName)
+        Me.Controls.Add(Me.txtUser)
         Me.Controls.Add(Me.btnTimeClock)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "AdminLogin"
         Me.Text = "Admin Login"
         Me.ResumeLayout(False)
@@ -145,8 +153,10 @@ Partial Class AdminLogin
     Friend WithEvents txtPW As System.Windows.Forms.TextBox
     Friend WithEvents btnSignIn As System.Windows.Forms.Button
     Friend WithEvents lblUserName As System.Windows.Forms.Label
-    Friend WithEvents txtUserName As System.Windows.Forms.TextBox
+    Friend WithEvents txtUser As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents lblTime As System.Windows.Forms.Label
+    Friend WithEvents lblTime2 As System.Windows.Forms.Label
     Friend WithEvents lblCurrentTime As System.Windows.Forms.Label
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
+
 End Class

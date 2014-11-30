@@ -63,7 +63,7 @@ Partial Class TimeClock
         Me.txtUserName.Location = New System.Drawing.Point(247, 163)
         Me.txtUserName.Name = "txtUserName"
         Me.txtUserName.Size = New System.Drawing.Size(215, 20)
-        Me.txtUserName.TabIndex = 2
+        Me.txtUserName.TabIndex = 1
         '
         'lblUserName
         '
@@ -92,7 +92,7 @@ Partial Class TimeClock
         Me.btnAdminUser.Location = New System.Drawing.Point(12, 318)
         Me.btnAdminUser.Name = "btnAdminUser"
         Me.btnAdminUser.Size = New System.Drawing.Size(90, 61)
-        Me.btnAdminUser.TabIndex = 5
+        Me.btnAdminUser.TabIndex = 3
         Me.btnAdminUser.Text = "Admin Login"
         Me.btnAdminUser.UseVisualStyleBackColor = True
         '
@@ -103,7 +103,7 @@ Partial Class TimeClock
         Me.btnLogIn.Location = New System.Drawing.Point(310, 223)
         Me.btnLogIn.Name = "btnLogIn"
         Me.btnLogIn.Size = New System.Drawing.Size(89, 27)
-        Me.btnLogIn.TabIndex = 6
+        Me.btnLogIn.TabIndex = 2
         Me.btnLogIn.Text = "Clock In/Out"
         Me.btnLogIn.UseVisualStyleBackColor = True
         '
@@ -138,6 +138,9 @@ Partial Class TimeClock
         Me.Controls.Add(Me.txtUserName)
         Me.Controls.Add(Me.lblTime)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "TimeClock"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.Text = "TimeClock"
