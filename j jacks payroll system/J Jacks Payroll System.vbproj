@@ -95,6 +95,10 @@
     <Compile Include="mBox.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ModifyEmployee.Designer.vb" />
+    <Compile Include="ModifyEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="TimeClock.vb">
       <SubType>Form</SubType>
     </Compile>
