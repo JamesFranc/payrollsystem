@@ -192,18 +192,35 @@
         Return New Employee
     End Function
 
+    'returns employee by employee id
+    Public Function getEmployeeByName(ByVal strName As String) As Employee
+        For Each tempEmp As Employee In lisEmployees
+            If (strName.Equals(tempEmp.lName & ", " & tempEmp.fName)) Then
+                Return tempEmp
+            End If
+        Next
+        Return New Employee
+    End Function
+
     'Deletes employee from list
     Public Sub terminateEmployee(ByVal strUserId As String)
         Dim intCounter As Integer = 0
+        Dim intIndex As Integer = -1
         For Each tempEmp As Employee In lisEmployees
             If (tempEmp.userId.Equals(strUserId)) Then
-                lisEmployees.RemoveAt(intCounter)
+                intIndex = intCounter
             End If
             intCounter = intCounter + 1
         Next
+        If (intIndex <> -1) Then
+            lisEmployees.RemoveAt(intIndex)
+        End If
+
         save()
     End Sub
 
-
+    Public Function getEmployeeList() As List(Of Employee)
+        Return lisEmployees
+    End Function
 
 End Class
