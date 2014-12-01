@@ -101,6 +101,12 @@
     <Compile Include="mBox.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Print.Designer.vb">
+      <DependentUpon>Print.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Print.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Terminate Employee.Designer.vb">
       <DependentUpon>Terminate Employee.vb</DependentUpon>
     </Compile>
@@ -151,6 +157,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="mBox.resx">
       <DependentUpon>mBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print.resx">
+      <DependentUpon>Print.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Terminate Employee.resx">
       <DependentUpon>Terminate Employee.vb</DependentUpon>

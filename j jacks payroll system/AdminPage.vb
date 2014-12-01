@@ -51,4 +51,12 @@
 
         Me.Hide()
     End Sub
+
+    Private Sub btnCheque_Click(sender As Object, e As EventArgs) Handles btnCheque.Click
+        Print.Show("Cheques sent to the bank!", "Cheques Sent")
+    End Sub
+
+    Private Sub btnTax_Click(sender As Object, e As EventArgs) Handles btnTax.Click
+        Print.Show("W2s sent to default printer!", "W2s Printed")
+    End Sub
 End Class
