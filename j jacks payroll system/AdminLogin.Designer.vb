@@ -127,6 +127,7 @@ Partial Class AdminLogin
         '
         'AdminLogin
         '
+        Me.AcceptButton = Me.btnSignIn
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(654, 391)

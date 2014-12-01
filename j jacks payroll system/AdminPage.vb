@@ -31,4 +31,12 @@
     Private Sub btnManageEmployee_Click(sender As Object, e As EventArgs) Handles btnManageEmployee.Click
 
     End Sub
+
+    Private Sub btnCheque_Click(sender As Object, e As EventArgs) Handles btnCheque.Click
+        frmPrint.Show("Cheques were sent to the bank!", "Checks Sent")
+    End Sub
+
+    Private Sub btnTax_Click(sender As Object, e As EventArgs) Handles btnTax.Click
+        frmPrint.Show("W2s sent to the default printer!", "W2s Printed")
+    End Sub
 End Class

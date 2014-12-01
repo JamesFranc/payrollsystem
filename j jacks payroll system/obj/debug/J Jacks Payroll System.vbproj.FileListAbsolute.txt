@@ -62,3 +62,18 @@ C:\Users\Flowers\Documents\GitHub\payrollsystem\payrollsystem\J Jacks Payroll Sy
 C:\Users\Flowers\Documents\GitHub\payrollsystem\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.TimeClock.resources
 C:\Users\Flowers\Documents\GitHub\payrollsystem\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.Resources.resources
 C:\Users\Flowers\Documents\GitHub\payrollsystem\payrollsystem\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.vbproj.GenerateResource.Cache
+D:\CS\323\payrollsystem\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.exe
+D:\CS\323\payrollsystem\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.xml
+D:\CS\323\payrollsystem\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.pdb
+D:\CS\323\payrollsystem\J Jacks Payroll System\bin\Debug\J Jacks Payroll System.exe
+D:\CS\323\payrollsystem\J Jacks Payroll System\bin\Debug\J Jacks Payroll System.pdb
+D:\CS\323\payrollsystem\J Jacks Payroll System\bin\Debug\J Jacks Payroll System.xml
+D:\CS\323\payrollsystem\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.vbprojResolveAssemblyReference.cache
+D:\CS\323\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.AdminLogin.resources
+D:\CS\323\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.AdminPage.resources
+D:\CS\323\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.Invalid.resources
+D:\CS\323\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.mBox.resources
+D:\CS\323\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.TimeClock.resources
+D:\CS\323\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.Resources.resources
+D:\CS\323\payrollsystem\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.vbproj.GenerateResource.Cache
+D:\CS\323\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.frmPrint.resources
