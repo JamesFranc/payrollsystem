@@ -116,10 +116,10 @@
     <Compile Include="mBox.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModifyEmployee.designer.vb">
-      <DependentUpon>ModifyEmployee.vb</DependentUpon>
+    <Compile Include="EmployeeManagements.designer.vb">
+      <DependentUpon>EmployeeManagements.vb</DependentUpon>
     </Compile>
-    <Compile Include="ModifyEmployee.vb">
+    <Compile Include="EmployeeManagements.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Print.Designer.vb">
@@ -179,8 +179,8 @@
     <EmbeddedResource Include="mBox.resx">
       <DependentUpon>mBox.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModifyEmployee.resx">
-      <DependentUpon>ModifyEmployee.vb</DependentUpon>
+    <EmbeddedResource Include="EmployeeManagements.resx">
+      <DependentUpon>EmployeeManagements.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Print.resx">
       <DependentUpon>Print.vb</DependentUpon>

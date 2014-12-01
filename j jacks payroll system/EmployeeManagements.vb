@@ -1,4 +1,4 @@
-﻿Public Class ModifyEmployee
+﻿Public Class EmployeeManagements
 
     Private Sub ModifyEmployee_FormClosed(sender As Object, e As FormClosedEventArgs) Handles Me.FormClosed
         Application.Exit()

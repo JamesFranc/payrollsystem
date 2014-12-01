@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class ModifyEmployee
+Partial Class EmployeeManagements
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -53,7 +53,7 @@ Partial Class ModifyEmployee
         '
         Me.lblJJacks.AutoSize = True
         Me.lblJJacks.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblJJacks.Location = New System.Drawing.Point(123, 9)
+        Me.lblJJacks.Location = New System.Drawing.Point(109, 12)
         Me.lblJJacks.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblJJacks.Name = "lblJJacks"
         Me.lblJJacks.Size = New System.Drawing.Size(442, 39)
@@ -65,12 +65,12 @@ Partial Class ModifyEmployee
         '
         Me.lblModEmp.AutoSize = True
         Me.lblModEmp.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblModEmp.Location = New System.Drawing.Point(247, 51)
+        Me.lblModEmp.Location = New System.Drawing.Point(194, 51)
         Me.lblModEmp.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblModEmp.Name = "lblModEmp"
-        Me.lblModEmp.Size = New System.Drawing.Size(180, 26)
+        Me.lblModEmp.Size = New System.Drawing.Size(243, 26)
         Me.lblModEmp.TabIndex = 0
-        Me.lblModEmp.Text = "Modify Employee"
+        Me.lblModEmp.Text = "Employee Management"
         '
         'lblFName
         '
@@ -280,7 +280,7 @@ Partial Class ModifyEmployee
         Me.btnBack.Text = "Cancel"
         Me.btnBack.UseVisualStyleBackColor = True
         '
-        'ModifyEmployee
+        'EmployeeManagements
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -315,9 +315,9 @@ Partial Class ModifyEmployee
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "ModifyEmployee"
+        Me.Name = "EmployeeManagements"
         Me.ShowIcon = False
-        Me.Text = "Modify Employee"
+        Me.Text = "Employee Management"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

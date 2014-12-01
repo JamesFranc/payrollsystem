@@ -63,8 +63,8 @@
     End Sub
 
     Private Sub btnManageEmployee_Click(sender As Object, e As EventArgs) Handles btnManageEmployee.Click
-        ModifyEmployee.Location = Me.Location
-        ModifyEmployee.Show()
+        EmployeeManagements.Location = Me.Location
+        EmployeeManagements.Show()
         Me.Hide()
     End Sub
 End Class
