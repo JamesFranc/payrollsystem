@@ -65,3 +65,19 @@ C:\Users\Flowers\Documents\GitHub\payrollsystem\payrollsystem\J Jacks Payroll Sy
 C:\Users\Flowers\Documents\GitHub\payrollsystem\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.AddEmployee.resources
 C:\Users\Flowers\Documents\GitHub\payrollsystem\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.TerminateEmployee.resources
 C:\Users\Flowers\Documents\GitHub\payrollsystem\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.Timecard.resources
+C:\Users\Flowers\Desktop\payrollsystem\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.exe
+C:\Users\Flowers\Desktop\payrollsystem\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.xml
+C:\Users\Flowers\Desktop\payrollsystem\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.pdb
+C:\Users\Flowers\Desktop\payrollsystem\J Jacks Payroll System\bin\Debug\J Jacks Payroll System.exe
+C:\Users\Flowers\Desktop\payrollsystem\J Jacks Payroll System\bin\Debug\J Jacks Payroll System.pdb
+C:\Users\Flowers\Desktop\payrollsystem\J Jacks Payroll System\bin\Debug\J Jacks Payroll System.xml
+C:\Users\Flowers\Desktop\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.AddEmployee.resources
+C:\Users\Flowers\Desktop\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.AdminLogin.resources
+C:\Users\Flowers\Desktop\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.AdminPage.resources
+C:\Users\Flowers\Desktop\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.Invalid.resources
+C:\Users\Flowers\Desktop\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.mBox.resources
+C:\Users\Flowers\Desktop\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.TerminateEmployee.resources
+C:\Users\Flowers\Desktop\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.Timecard.resources
+C:\Users\Flowers\Desktop\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.TimeClock.resources
+C:\Users\Flowers\Desktop\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.Resources.resources
+C:\Users\Flowers\Desktop\payrollsystem\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.vbproj.GenerateResource.Cache
