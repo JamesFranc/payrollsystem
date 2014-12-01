@@ -16,4 +16,3 @@ C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Release\J J
 C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Release\J Jacks Payroll System.exe
 C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Release\J Jacks Payroll System.xml
 C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Release\J Jacks Payroll System.pdb
-C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Release\J Jacks Payroll System.vbprojResolveAssemblyReference.cache

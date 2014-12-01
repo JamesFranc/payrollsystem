@@ -50,7 +50,7 @@ Partial Class AdminLogin
         'lblPW
         '
         Me.lblPW.AutoSize = True
-        Me.lblPW.Location = New System.Drawing.Point(191, 186)
+        Me.lblPW.Location = New System.Drawing.Point(155, 191)
         Me.lblPW.Name = "lblPW"
         Me.lblPW.Size = New System.Drawing.Size(56, 13)
         Me.lblPW.TabIndex = 1
@@ -58,7 +58,7 @@ Partial Class AdminLogin
         '
         'txtPW
         '
-        Me.txtPW.Location = New System.Drawing.Point(264, 186)
+        Me.txtPW.Location = New System.Drawing.Point(228, 187)
         Me.txtPW.Name = "txtPW"
         Me.txtPW.Size = New System.Drawing.Size(215, 20)
         Me.txtPW.TabIndex = 2
@@ -68,7 +68,7 @@ Partial Class AdminLogin
         '
         Me.btnSignIn.FlatAppearance.BorderColor = System.Drawing.Color.Silver
         Me.btnSignIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSignIn.Location = New System.Drawing.Point(323, 212)
+        Me.btnSignIn.Location = New System.Drawing.Point(450, 170)
         Me.btnSignIn.Name = "btnSignIn"
         Me.btnSignIn.Size = New System.Drawing.Size(89, 27)
         Me.btnSignIn.TabIndex = 3
@@ -78,7 +78,7 @@ Partial Class AdminLogin
         'lblUserName
         '
         Me.lblUserName.AutoSize = True
-        Me.lblUserName.Location = New System.Drawing.Point(189, 159)
+        Me.lblUserName.Location = New System.Drawing.Point(153, 165)
         Me.lblUserName.Name = "lblUserName"
         Me.lblUserName.Size = New System.Drawing.Size(58, 13)
         Me.lblUserName.TabIndex = 5
@@ -86,7 +86,7 @@ Partial Class AdminLogin
         '
         'txtUser
         '
-        Me.txtUser.Location = New System.Drawing.Point(264, 152)
+        Me.txtUser.Location = New System.Drawing.Point(228, 161)
         Me.txtUser.Name = "txtUser"
         Me.txtUser.Size = New System.Drawing.Size(215, 20)
         Me.txtUser.TabIndex = 1

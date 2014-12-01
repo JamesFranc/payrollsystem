@@ -20,6 +20,8 @@
 
         AdminLogin.Show()
         AdminLogin.Location = Me.Location
+        AdminLogin.txtUser.Focus()
+
         Me.Hide()
 
     End Sub
