@@ -38,7 +38,7 @@
             txtUserName.Focus()
 
         Else
-        'MessageBox.Show("Wrong Username!")
+            'MessageBox.Show("Wrong Username!")
             Invalid.Show("Wrong Username")
         End If
 
