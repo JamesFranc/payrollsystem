@@ -20,6 +20,7 @@
 
         TimeClock.Location = Me.Location
         TimeClock.Show()
+        TimeClock.txtUserName.Focus()
         Me.Hide()
 
     End Sub
@@ -41,16 +42,25 @@
                 Else
                     'MessageBox.Show("No Admin Access!")
                     Invalid.Show("No Admin Access")
+                    txtUser.Text = ""
+                    txtPW.Text = ""
+                    txtUser.Focus()
                 End If
 
             Else
                 'MessageBox.Show("Wrong Password!")
                 Invalid.Show("Wrong Password")
+                txtUser.Text = ""
+                txtPW.Text = ""
+                txtUser.Focus()
             End If
 
         Else
             'MessageBox.Show("Wrong Username!")
             Invalid.Show("Wrong Username")
+            txtUser.Text = ""
+            txtPW.Text = ""
+            txtUser.Focus()
         End If
 
 

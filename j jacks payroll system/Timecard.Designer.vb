@@ -158,7 +158,7 @@ Partial Class Timecard
         Me.txtSat1.Location = New System.Drawing.Point(507, 44)
         Me.txtSat1.Name = "txtSat1"
         Me.txtSat1.Size = New System.Drawing.Size(77, 20)
-        Me.txtSat1.TabIndex = 38
+        Me.txtSat1.TabIndex = 8
         Me.txtSat1.Text = "0.00"
         '
         'txtSun1
@@ -166,7 +166,7 @@ Partial Class Timecard
         Me.txtSun1.Location = New System.Drawing.Point(590, 44)
         Me.txtSun1.Name = "txtSun1"
         Me.txtSun1.Size = New System.Drawing.Size(77, 20)
-        Me.txtSun1.TabIndex = 37
+        Me.txtSun1.TabIndex = 9
         Me.txtSun1.Text = "0.00"
         '
         'txtTue1
@@ -174,7 +174,7 @@ Partial Class Timecard
         Me.txtTue1.Location = New System.Drawing.Point(175, 44)
         Me.txtTue1.Name = "txtTue1"
         Me.txtTue1.Size = New System.Drawing.Size(77, 20)
-        Me.txtTue1.TabIndex = 36
+        Me.txtTue1.TabIndex = 4
         Me.txtTue1.Text = "0.00"
         '
         'txtWed1
@@ -182,7 +182,7 @@ Partial Class Timecard
         Me.txtWed1.Location = New System.Drawing.Point(258, 44)
         Me.txtWed1.Name = "txtWed1"
         Me.txtWed1.Size = New System.Drawing.Size(77, 20)
-        Me.txtWed1.TabIndex = 35
+        Me.txtWed1.TabIndex = 5
         Me.txtWed1.Text = "0.00"
         '
         'txtThu1
@@ -190,7 +190,7 @@ Partial Class Timecard
         Me.txtThu1.Location = New System.Drawing.Point(341, 44)
         Me.txtThu1.Name = "txtThu1"
         Me.txtThu1.Size = New System.Drawing.Size(77, 20)
-        Me.txtThu1.TabIndex = 34
+        Me.txtThu1.TabIndex = 6
         Me.txtThu1.Text = "0.00"
         '
         'txtFri1
@@ -198,7 +198,7 @@ Partial Class Timecard
         Me.txtFri1.Location = New System.Drawing.Point(424, 44)
         Me.txtFri1.Name = "txtFri1"
         Me.txtFri1.Size = New System.Drawing.Size(77, 20)
-        Me.txtFri1.TabIndex = 33
+        Me.txtFri1.TabIndex = 7
         Me.txtFri1.Text = "0.00"
         '
         'txtMon1
@@ -206,7 +206,7 @@ Partial Class Timecard
         Me.txtMon1.Location = New System.Drawing.Point(87, 44)
         Me.txtMon1.Name = "txtMon1"
         Me.txtMon1.Size = New System.Drawing.Size(77, 20)
-        Me.txtMon1.TabIndex = 32
+        Me.txtMon1.TabIndex = 3
         Me.txtMon1.Text = "0.00"
         '
         'txtSat2
@@ -214,7 +214,7 @@ Partial Class Timecard
         Me.txtSat2.Location = New System.Drawing.Point(507, 73)
         Me.txtSat2.Name = "txtSat2"
         Me.txtSat2.Size = New System.Drawing.Size(77, 20)
-        Me.txtSat2.TabIndex = 31
+        Me.txtSat2.TabIndex = 15
         Me.txtSat2.Text = "0.00"
         '
         'txtSun2
@@ -222,7 +222,7 @@ Partial Class Timecard
         Me.txtSun2.Location = New System.Drawing.Point(590, 73)
         Me.txtSun2.Name = "txtSun2"
         Me.txtSun2.Size = New System.Drawing.Size(77, 20)
-        Me.txtSun2.TabIndex = 30
+        Me.txtSun2.TabIndex = 16
         Me.txtSun2.Text = "0.00"
         '
         'txtTue2
@@ -230,7 +230,7 @@ Partial Class Timecard
         Me.txtTue2.Location = New System.Drawing.Point(175, 73)
         Me.txtTue2.Name = "txtTue2"
         Me.txtTue2.Size = New System.Drawing.Size(77, 20)
-        Me.txtTue2.TabIndex = 29
+        Me.txtTue2.TabIndex = 11
         Me.txtTue2.Text = "0.00"
         '
         'txtWed2
@@ -238,7 +238,7 @@ Partial Class Timecard
         Me.txtWed2.Location = New System.Drawing.Point(258, 73)
         Me.txtWed2.Name = "txtWed2"
         Me.txtWed2.Size = New System.Drawing.Size(77, 20)
-        Me.txtWed2.TabIndex = 28
+        Me.txtWed2.TabIndex = 12
         Me.txtWed2.Text = "0.00"
         '
         'txtThu2
@@ -246,7 +246,7 @@ Partial Class Timecard
         Me.txtThu2.Location = New System.Drawing.Point(341, 73)
         Me.txtThu2.Name = "txtThu2"
         Me.txtThu2.Size = New System.Drawing.Size(77, 20)
-        Me.txtThu2.TabIndex = 27
+        Me.txtThu2.TabIndex = 13
         Me.txtThu2.Text = "0.00"
         '
         'txtFri2
@@ -254,7 +254,7 @@ Partial Class Timecard
         Me.txtFri2.Location = New System.Drawing.Point(424, 73)
         Me.txtFri2.Name = "txtFri2"
         Me.txtFri2.Size = New System.Drawing.Size(77, 20)
-        Me.txtFri2.TabIndex = 26
+        Me.txtFri2.TabIndex = 14
         Me.txtFri2.Text = "0.00"
         '
         'txtMon2
@@ -262,7 +262,7 @@ Partial Class Timecard
         Me.txtMon2.Location = New System.Drawing.Point(87, 73)
         Me.txtMon2.Name = "txtMon2"
         Me.txtMon2.Size = New System.Drawing.Size(77, 20)
-        Me.txtMon2.TabIndex = 24
+        Me.txtMon2.TabIndex = 10
         Me.txtMon2.Text = "0.00"
         '
         'Label7
@@ -301,7 +301,7 @@ Partial Class Timecard
         Me.btnSearch.Location = New System.Drawing.Point(325, 19)
         Me.btnSearch.Name = "btnSearch"
         Me.btnSearch.Size = New System.Drawing.Size(104, 26)
-        Me.btnSearch.TabIndex = 24
+        Me.btnSearch.TabIndex = 2
         Me.btnSearch.Text = "Search"
         Me.btnSearch.UseVisualStyleBackColor = True
         '
@@ -310,7 +310,7 @@ Partial Class Timecard
         Me.txtUserID.Location = New System.Drawing.Point(186, 23)
         Me.txtUserID.Name = "txtUserID"
         Me.txtUserID.Size = New System.Drawing.Size(99, 20)
-        Me.txtUserID.TabIndex = 18
+        Me.txtUserID.TabIndex = 1
         '
         'Label3
         '
@@ -335,7 +335,7 @@ Partial Class Timecard
         Me.btnCancel.Location = New System.Drawing.Point(184, 368)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(104, 26)
-        Me.btnCancel.TabIndex = 26
+        Me.btnCancel.TabIndex = 18
         Me.btnCancel.Text = "Cancel"
         Me.btnCancel.UseVisualStyleBackColor = True
         '
@@ -345,7 +345,7 @@ Partial Class Timecard
         Me.btnSubmit.Location = New System.Drawing.Point(496, 368)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(104, 26)
-        Me.btnSubmit.TabIndex = 25
+        Me.btnSubmit.TabIndex = 17
         Me.btnSubmit.Text = "Submit Changes"
         Me.btnSubmit.UseVisualStyleBackColor = True
         '
@@ -365,6 +365,7 @@ Partial Class Timecard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.btnCancel
         Me.ClientSize = New System.Drawing.Size(819, 433)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)

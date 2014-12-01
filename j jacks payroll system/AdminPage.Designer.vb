@@ -58,7 +58,7 @@ Partial Class AdminPage
         Me.btnManageTime.Location = New System.Drawing.Point(373, 110)
         Me.btnManageTime.Name = "btnManageTime"
         Me.btnManageTime.Size = New System.Drawing.Size(165, 23)
-        Me.btnManageTime.TabIndex = 1
+        Me.btnManageTime.TabIndex = 3
         Me.btnManageTime.Text = "Manage Timesheets"
         Me.btnManageTime.UseVisualStyleBackColor = True
         '
@@ -70,7 +70,7 @@ Partial Class AdminPage
         Me.btnCheque.Location = New System.Drawing.Point(373, 163)
         Me.btnCheque.Name = "btnCheque"
         Me.btnCheque.Size = New System.Drawing.Size(165, 23)
-        Me.btnCheque.TabIndex = 2
+        Me.btnCheque.TabIndex = 4
         Me.btnCheque.Text = "Print Cheques"
         Me.btnCheque.UseVisualStyleBackColor = True
         '
@@ -82,7 +82,7 @@ Partial Class AdminPage
         Me.btnTax.Location = New System.Drawing.Point(373, 222)
         Me.btnTax.Name = "btnTax"
         Me.btnTax.Size = New System.Drawing.Size(165, 23)
-        Me.btnTax.TabIndex = 3
+        Me.btnTax.TabIndex = 5
         Me.btnTax.Text = "Print W2s"
         Me.btnTax.UseVisualStyleBackColor = True
         '
@@ -94,7 +94,7 @@ Partial Class AdminPage
         Me.btnTimeClock.Location = New System.Drawing.Point(12, 304)
         Me.btnTimeClock.Name = "btnTimeClock"
         Me.btnTimeClock.Size = New System.Drawing.Size(90, 75)
-        Me.btnTimeClock.TabIndex = 4
+        Me.btnTimeClock.TabIndex = 6
         Me.btnTimeClock.Text = "Time Clock"
         Me.btnTimeClock.UseVisualStyleBackColor = True
         '
@@ -161,7 +161,7 @@ Partial Class AdminPage
         Me.btnAddEmployee.Location = New System.Drawing.Point(106, 163)
         Me.btnAddEmployee.Name = "btnAddEmployee"
         Me.btnAddEmployee.Size = New System.Drawing.Size(165, 23)
-        Me.btnAddEmployee.TabIndex = 10
+        Me.btnAddEmployee.TabIndex = 1
         Me.btnAddEmployee.Text = "Add Employee"
         Me.btnAddEmployee.UseVisualStyleBackColor = True
         '
@@ -173,7 +173,7 @@ Partial Class AdminPage
         Me.btnTermEmployee.Location = New System.Drawing.Point(106, 222)
         Me.btnTermEmployee.Name = "btnTermEmployee"
         Me.btnTermEmployee.Size = New System.Drawing.Size(165, 23)
-        Me.btnTermEmployee.TabIndex = 11
+        Me.btnTermEmployee.TabIndex = 2
         Me.btnTermEmployee.Text = "Terminate Employee"
         Me.btnTermEmployee.UseVisualStyleBackColor = True
         '
@@ -181,6 +181,7 @@ Partial Class AdminPage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.btnTimeClock
         Me.ClientSize = New System.Drawing.Size(654, 391)
         Me.Controls.Add(Me.btnTermEmployee)
         Me.Controls.Add(Me.btnAddEmployee)

@@ -61,7 +61,7 @@ Partial Class TimeClock
         '
         'txtUserName
         '
-        Me.txtUserName.Location = New System.Drawing.Point(247, 163)
+        Me.txtUserName.Location = New System.Drawing.Point(220, 183)
         Me.txtUserName.Name = "txtUserName"
         Me.txtUserName.Size = New System.Drawing.Size(215, 20)
         Me.txtUserName.TabIndex = 1
@@ -69,7 +69,7 @@ Partial Class TimeClock
         'lblUserName
         '
         Me.lblUserName.AutoSize = True
-        Me.lblUserName.Location = New System.Drawing.Point(158, 166)
+        Me.lblUserName.Location = New System.Drawing.Point(131, 186)
         Me.lblUserName.Name = "lblUserName"
         Me.lblUserName.Size = New System.Drawing.Size(70, 13)
         Me.lblUserName.TabIndex = 3
@@ -101,7 +101,7 @@ Partial Class TimeClock
         '
         Me.btnLogIn.FlatAppearance.BorderColor = System.Drawing.Color.Silver
         Me.btnLogIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnLogIn.Location = New System.Drawing.Point(310, 223)
+        Me.btnLogIn.Location = New System.Drawing.Point(454, 179)
         Me.btnLogIn.Name = "btnLogIn"
         Me.btnLogIn.Size = New System.Drawing.Size(89, 27)
         Me.btnLogIn.TabIndex = 2
@@ -138,8 +138,10 @@ Partial Class TimeClock
         '
         'TimeClock
         '
+        Me.AcceptButton = Me.btnLogIn
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.btnAdminUser
         Me.ClientSize = New System.Drawing.Size(654, 391)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.dispEmployeeNumber)

@@ -10,8 +10,6 @@
 
         HideLabels()
         HideTextBoxes()
-        btnCancel.BackColor = Color.Red
-        btnSave.BackColor = Color.Green
         txtSearch.Focus()
     End Sub
 
@@ -25,7 +23,6 @@
         lblSSN.Visible = False
         lblState.Visible = False
         lblZip.Visible = False
-        btnCancel.Visible = False
         btnSave.Visible = False
     End Sub
 
@@ -63,7 +60,6 @@
         txtSSN.Visible = True
         txtState.Visible = True
         txtZip.Visible = True
-        btnCancel.Visible = True
         btnSave.Visible = True
     End Sub
 
@@ -134,7 +130,7 @@
         txtSearch.Focus()
     End Sub
 
-    Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
+    Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         HideLabels()
         HideTextBoxes()
         txtSearch.Clear()
@@ -143,5 +139,6 @@
         AdminPage.Show()
 
         Me.Hide()
+
     End Sub
 End Class

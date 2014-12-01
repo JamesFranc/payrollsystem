@@ -11,6 +11,7 @@
         Me.Location = AdminLogin.Location
         Me.Show()
         Timer1.Start()
+        btnManageEmployee.Focus()
 
     End Sub
 

@@ -37,6 +37,7 @@ Partial Class AdminLogin
         '
         'btnTimeClock
         '
+        Me.btnTimeClock.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.btnTimeClock.FlatAppearance.BorderColor = System.Drawing.Color.Silver
         Me.btnTimeClock.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnTimeClock.Location = New System.Drawing.Point(12, 318)
@@ -67,7 +68,7 @@ Partial Class AdminLogin
         '
         Me.btnSignIn.FlatAppearance.BorderColor = System.Drawing.Color.Silver
         Me.btnSignIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSignIn.Location = New System.Drawing.Point(327, 212)
+        Me.btnSignIn.Location = New System.Drawing.Point(323, 212)
         Me.btnSignIn.Name = "btnSignIn"
         Me.btnSignIn.Size = New System.Drawing.Size(89, 27)
         Me.btnSignIn.TabIndex = 3
@@ -127,8 +128,10 @@ Partial Class AdminLogin
         '
         'AdminLogin
         '
+        Me.AcceptButton = Me.btnSignIn
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.btnTimeClock
         Me.ClientSize = New System.Drawing.Size(654, 391)
         Me.Controls.Add(Me.lblTime2)
         Me.Controls.Add(Me.lblCurrentTime)

@@ -4,7 +4,10 @@
 
     Private Sub Timecard_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         Me.Location = AdminPage.Location
+
         Me.Show()
+
+        txtUserID.Focus()
     End Sub
 
 

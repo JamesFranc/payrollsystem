@@ -77,6 +77,7 @@ Partial Class AddEmployee
         '
         'btnCancel
         '
+        Me.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCancel.Location = New System.Drawing.Point(153, 275)
         Me.btnCancel.Name = "btnCancel"
@@ -289,8 +290,10 @@ Partial Class AddEmployee
         '
         'AddEmployee
         '
+        Me.AcceptButton = Me.btnSubmit
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.btnCancel
         Me.ClientSize = New System.Drawing.Size(735, 324)
         Me.Controls.Add(Me.txtUserId)
         Me.Controls.Add(Me.txtPassword)
