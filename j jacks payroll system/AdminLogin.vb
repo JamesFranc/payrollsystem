@@ -1,8 +1,5 @@
 ﻿Public Class AdminLogin
 
-
-
-
     Private Sub AdminLogin_FormClosed(sender As Object, e As FormClosedEventArgs) Handles Me.FormClosed
 
         Application.Exit()

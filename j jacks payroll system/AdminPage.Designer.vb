@@ -195,8 +195,11 @@ Partial Class AdminPage
         Me.Controls.Add(Me.btnManageTime)
         Me.Controls.Add(Me.btnManageEmployee)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "AdminPage"
         Me.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ShowIcon = False
         Me.Text = "J. Jacks Administration"
         Me.ResumeLayout(False)
         Me.PerformLayout()

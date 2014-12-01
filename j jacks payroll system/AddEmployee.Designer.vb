@@ -67,6 +67,7 @@ Partial Class AddEmployee
         '
         'btnSubmit
         '
+        Me.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSubmit.Location = New System.Drawing.Point(474, 275)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(104, 26)
@@ -76,6 +77,7 @@ Partial Class AddEmployee
         '
         'btnCancel
         '
+        Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCancel.Location = New System.Drawing.Point(153, 275)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(104, 26)
@@ -167,9 +169,10 @@ Partial Class AddEmployee
         'radAdmin
         '
         Me.radAdmin.AutoSize = True
+        Me.radAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.radAdmin.Location = New System.Drawing.Point(27, 19)
         Me.radAdmin.Name = "radAdmin"
-        Me.radAdmin.Size = New System.Drawing.Size(54, 17)
+        Me.radAdmin.Size = New System.Drawing.Size(53, 17)
         Me.radAdmin.TabIndex = 24
         Me.radAdmin.Text = "Admin"
         Me.radAdmin.UseVisualStyleBackColor = True
@@ -178,9 +181,10 @@ Partial Class AddEmployee
         '
         Me.radNotAdmin.AutoSize = True
         Me.radNotAdmin.Checked = True
+        Me.radNotAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.radNotAdmin.Location = New System.Drawing.Point(27, 42)
         Me.radNotAdmin.Name = "radNotAdmin"
-        Me.radNotAdmin.Size = New System.Drawing.Size(74, 17)
+        Me.radNotAdmin.Size = New System.Drawing.Size(73, 17)
         Me.radNotAdmin.TabIndex = 25
         Me.radNotAdmin.TabStop = True
         Me.radNotAdmin.Text = "Not Admin"
@@ -313,7 +317,11 @@ Partial Class AddEmployee
         Me.Controls.Add(Me.btnCancel)
         Me.Controls.Add(Me.btnSubmit)
         Me.Controls.Add(Me.Label4)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "AddEmployee"
+        Me.ShowIcon = False
         Me.Text = "Hiring"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

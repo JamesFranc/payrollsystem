@@ -36,6 +36,7 @@ Partial Class TerminateEmployee
         '
         'btnReload
         '
+        Me.btnReload.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnReload.Location = New System.Drawing.Point(323, 242)
         Me.btnReload.Name = "btnReload"
         Me.btnReload.Size = New System.Drawing.Size(114, 23)
@@ -45,6 +46,7 @@ Partial Class TerminateEmployee
         '
         'btnCancel
         '
+        Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCancel.Location = New System.Drawing.Point(173, 291)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(104, 26)
@@ -54,6 +56,7 @@ Partial Class TerminateEmployee
         '
         'btnSubmit
         '
+        Me.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSubmit.Location = New System.Drawing.Point(494, 291)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(104, 26)
@@ -63,6 +66,7 @@ Partial Class TerminateEmployee
         '
         'btnRemoveTerm
         '
+        Me.btnRemoveTerm.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnRemoveTerm.Location = New System.Drawing.Point(323, 149)
         Me.btnRemoveTerm.Name = "btnRemoveTerm"
         Me.btnRemoveTerm.Size = New System.Drawing.Size(114, 23)
@@ -72,6 +76,7 @@ Partial Class TerminateEmployee
         '
         'btnAddTerm
         '
+        Me.btnAddTerm.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAddTerm.Location = New System.Drawing.Point(323, 117)
         Me.btnAddTerm.Name = "btnAddTerm"
         Me.btnAddTerm.Size = New System.Drawing.Size(114, 23)
@@ -140,7 +145,11 @@ Partial Class TerminateEmployee
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lbCurrentlyEmployed)
         Me.Controls.Add(Me.Label4)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "TerminateEmployee"
+        Me.ShowIcon = False
         Me.Text = "TerminateEmployee"
         Me.ResumeLayout(False)
         Me.PerformLayout()

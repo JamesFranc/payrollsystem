@@ -6,6 +6,7 @@ C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jac
 C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.AdminPage.resources
 C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.Invalid.resources
 C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.mBox.resources
+C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.Print.resources
 C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.TerminateEmployee.resources
 C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.Timecard.resources
 C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.TimeClock.resources
@@ -14,20 +15,3 @@ C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Debug\J Jac
 C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.exe
 C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.xml
 C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.pdb
-D:\CS\323\payrollsystem - Copy\J Jacks Payroll System\bin\Debug\J Jacks Payroll System.exe
-D:\CS\323\payrollsystem - Copy\J Jacks Payroll System\bin\Debug\J Jacks Payroll System.pdb
-D:\CS\323\payrollsystem - Copy\J Jacks Payroll System\bin\Debug\J Jacks Payroll System.xml
-D:\CS\323\payrollsystem - Copy\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.AddEmployee.resources
-D:\CS\323\payrollsystem - Copy\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.AdminLogin.resources
-D:\CS\323\payrollsystem - Copy\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.AdminPage.resources
-D:\CS\323\payrollsystem - Copy\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.Invalid.resources
-D:\CS\323\payrollsystem - Copy\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.mBox.resources
-D:\CS\323\payrollsystem - Copy\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.TerminateEmployee.resources
-D:\CS\323\payrollsystem - Copy\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.Timecard.resources
-D:\CS\323\payrollsystem - Copy\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.TimeClock.resources
-D:\CS\323\payrollsystem - Copy\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.Resources.resources
-D:\CS\323\payrollsystem - Copy\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.vbproj.GenerateResource.Cache
-D:\CS\323\payrollsystem - Copy\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.exe
-D:\CS\323\payrollsystem - Copy\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.xml
-D:\CS\323\payrollsystem - Copy\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.pdb
-D:\CS\323\payrollsystem - Copy\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.Print.resources

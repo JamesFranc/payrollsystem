@@ -297,6 +297,7 @@ Partial Class Timecard
         '
         'btnSearch
         '
+        Me.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSearch.Location = New System.Drawing.Point(325, 19)
         Me.btnSearch.Name = "btnSearch"
         Me.btnSearch.Size = New System.Drawing.Size(104, 26)
@@ -330,6 +331,7 @@ Partial Class Timecard
         '
         'btnCancel
         '
+        Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCancel.Location = New System.Drawing.Point(184, 368)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(104, 26)
@@ -339,6 +341,7 @@ Partial Class Timecard
         '
         'btnSubmit
         '
+        Me.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSubmit.Location = New System.Drawing.Point(496, 368)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(104, 26)
@@ -369,7 +372,11 @@ Partial Class Timecard
         Me.Controls.Add(Me.btnCancel)
         Me.Controls.Add(Me.btnSubmit)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "Timecard"
+        Me.ShowIcon = False
         Me.Text = "Timecard"
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
