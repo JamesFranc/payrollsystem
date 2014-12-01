@@ -154,6 +154,64 @@
 
     End Sub
 
+    Public Sub updateExisting(ByVal strUserID As String, ByVal blnAdmin As Boolean, _
+                            ByVal strPassword As String, ByVal strFName As String, _
+                            ByVal strLName As String, ByVal strAddress1 As String, _
+                            ByVal strAddress2 As String, ByVal strCity As String, _
+                            ByVal strState As String, ByVal strZip As String, _
+                            ByVal strPhone As String, ByVal strSSN As String)
+        If (Not search(strUserID)) Then
+            MessageBox.Show("The Employee ID " & strUserID & " user could not found.")
+            Return
+        End If
+
+        Dim tempEmp As Employee = getEmployee(strUserID)
+        terminateEmployee(strUserID)
+        tempEmp.admin = blnAdmin
+
+        If Not strPassword.Equals("") Then
+            tempEmp.password = strPassword
+        End If
+
+        If Not strFName.Equals("") Then
+            tempEmp.fName = strFName
+        End If
+
+        If Not strLName.Equals("") Then
+            tempEmp.lName = strLName
+        End If
+
+        If Not strAddress1.Equals("") Then
+            tempEmp.address1 = strAddress1
+        End If
+
+        If Not strAddress2.Equals("") Then
+            tempEmp.address2 = strAddress2
+        End If
+
+        If Not strCity.Equals("") Then
+            tempEmp.city = strCity
+        End If
+
+        If Not strState.Equals("") Then
+            tempEmp.state = strState
+        End If
+
+        If Not strZip.Equals("") Then
+            tempEmp.zip = strZip
+        End If
+
+        If Not strPhone.Equals("") Then
+            tempEmp.phone = strPhone
+        End If
+
+        If Not strSSN.Equals("") Then
+            tempEmp.SSN = strSSN
+        End If
+
+        lisEmployees.Add(tempEmp)
+        save()
+    End Sub
 
     'another oprion for update employee
     Public Sub updateEmp(ByRef newEmployee As Employee)

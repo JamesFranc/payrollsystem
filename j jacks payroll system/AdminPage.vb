@@ -59,4 +59,10 @@
     Private Sub btnTax_Click(sender As Object, e As EventArgs) Handles btnTax.Click
         Print.Show("W2s sent to default printer!", "W2s Printed")
     End Sub
+
+    Private Sub btnManageEmployee_Click(sender As Object, e As EventArgs) Handles btnManageEmployee.Click
+        ModifyEmployee.Location = Me.Location
+        ModifyEmployee.Show()
+        Me.Hide()
+    End Sub
 End Class

@@ -15,3 +15,4 @@ C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Debug\J Jac
 C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.exe
 C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.xml
 C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.pdb
+C:\Users\J\Documents\GitHub\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.ModifyEmployee.resources
