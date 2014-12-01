@@ -1,4 +1,4 @@
-Payroll System - Software Engineering Team Project
+Payroll System - Software Engineering Project
 ===================================================
 
 323 Term Project
