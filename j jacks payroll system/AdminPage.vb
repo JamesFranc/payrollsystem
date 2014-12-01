@@ -28,4 +28,27 @@
     End Sub
 
 
+    Private Sub btnTermEmployee_Click(sender As Object, e As System.EventArgs) Handles btnTermEmployee.Click
+        TerminateEmployee.Location = Me.Location
+        TerminateEmployee.Show()
+
+        Me.Hide()
+    End Sub
+
+
+    Private Sub btnAddEmployee_Click(sender As Object, e As System.EventArgs) Handles btnAddEmployee.Click
+        AddEmployee.Location = Me.Location
+        AddEmployee.Show()
+
+        Me.Hide()
+    End Sub
+
+
+
+    Private Sub btnManageTime_Click(sender As Object, e As System.EventArgs) Handles btnManageTime.Click
+        Timecard.Location = Me.Location
+        Timecard.Show()
+
+        Me.Hide()
+    End Sub
 End Class

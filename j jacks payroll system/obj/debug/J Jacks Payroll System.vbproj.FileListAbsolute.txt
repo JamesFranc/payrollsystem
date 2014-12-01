@@ -62,3 +62,6 @@ C:\Users\Flowers\Documents\GitHub\payrollsystem\payrollsystem\J Jacks Payroll Sy
 C:\Users\Flowers\Documents\GitHub\payrollsystem\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.TimeClock.resources
 C:\Users\Flowers\Documents\GitHub\payrollsystem\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.Resources.resources
 C:\Users\Flowers\Documents\GitHub\payrollsystem\payrollsystem\J Jacks Payroll System\obj\Debug\J Jacks Payroll System.vbproj.GenerateResource.Cache
+C:\Users\Flowers\Documents\GitHub\payrollsystem\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.AddEmployee.resources
+C:\Users\Flowers\Documents\GitHub\payrollsystem\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.TerminateEmployee.resources
+C:\Users\Flowers\Documents\GitHub\payrollsystem\payrollsystem\J Jacks Payroll System\obj\Debug\J_Jacks_Payroll_System.Timecard.resources

@@ -69,6 +69,12 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddEmployee.Designer.vb">
+      <DependentUpon>AddEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="AdminPage.Designer.vb">
       <DependentUpon>AdminPage.vb</DependentUpon>
     </Compile>
@@ -95,6 +101,18 @@
     <Compile Include="mBox.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Terminate Employee.Designer.vb">
+      <DependentUpon>Terminate Employee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Terminate Employee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Timecard.Designer.vb">
+      <DependentUpon>Timecard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Timecard.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="TimeClock.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +137,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AddEmployee.resx">
+      <DependentUpon>AddEmployee.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminLogin.resx">
       <DependentUpon>AdminLogin.vb</DependentUpon>
     </EmbeddedResource>
@@ -130,6 +151,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="mBox.resx">
       <DependentUpon>mBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Terminate Employee.resx">
+      <DependentUpon>Terminate Employee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Timecard.resx">
+      <DependentUpon>Timecard.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TimeClock.resx">
       <DependentUpon>TimeClock.vb</DependentUpon>

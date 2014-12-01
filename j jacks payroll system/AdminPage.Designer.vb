@@ -34,6 +34,8 @@ Partial Class AdminPage
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.btnAddEmployee = New System.Windows.Forms.Button()
+        Me.btnTermEmployee = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnManageEmployee
@@ -41,7 +43,7 @@ Partial Class AdminPage
         Me.btnManageEmployee.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.btnManageEmployee.FlatAppearance.BorderColor = System.Drawing.Color.Silver
         Me.btnManageEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnManageEmployee.Location = New System.Drawing.Point(247, 85)
+        Me.btnManageEmployee.Location = New System.Drawing.Point(106, 110)
         Me.btnManageEmployee.Name = "btnManageEmployee"
         Me.btnManageEmployee.Size = New System.Drawing.Size(165, 23)
         Me.btnManageEmployee.TabIndex = 0
@@ -53,7 +55,7 @@ Partial Class AdminPage
         Me.btnManageTime.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.btnManageTime.FlatAppearance.BorderColor = System.Drawing.Color.Silver
         Me.btnManageTime.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnManageTime.Location = New System.Drawing.Point(247, 146)
+        Me.btnManageTime.Location = New System.Drawing.Point(373, 110)
         Me.btnManageTime.Name = "btnManageTime"
         Me.btnManageTime.Size = New System.Drawing.Size(165, 23)
         Me.btnManageTime.TabIndex = 1
@@ -65,7 +67,7 @@ Partial Class AdminPage
         Me.btnCheque.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.btnCheque.FlatAppearance.BorderColor = System.Drawing.Color.Silver
         Me.btnCheque.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCheque.Location = New System.Drawing.Point(247, 207)
+        Me.btnCheque.Location = New System.Drawing.Point(373, 163)
         Me.btnCheque.Name = "btnCheque"
         Me.btnCheque.Size = New System.Drawing.Size(165, 23)
         Me.btnCheque.TabIndex = 2
@@ -77,7 +79,7 @@ Partial Class AdminPage
         Me.btnTax.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.btnTax.FlatAppearance.BorderColor = System.Drawing.Color.Silver
         Me.btnTax.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnTax.Location = New System.Drawing.Point(247, 268)
+        Me.btnTax.Location = New System.Drawing.Point(373, 222)
         Me.btnTax.Name = "btnTax"
         Me.btnTax.Size = New System.Drawing.Size(165, 23)
         Me.btnTax.TabIndex = 3
@@ -151,11 +153,37 @@ Partial Class AdminPage
         'Timer1
         '
         '
+        'btnAddEmployee
+        '
+        Me.btnAddEmployee.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.btnAddEmployee.FlatAppearance.BorderColor = System.Drawing.Color.Silver
+        Me.btnAddEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAddEmployee.Location = New System.Drawing.Point(106, 163)
+        Me.btnAddEmployee.Name = "btnAddEmployee"
+        Me.btnAddEmployee.Size = New System.Drawing.Size(165, 23)
+        Me.btnAddEmployee.TabIndex = 10
+        Me.btnAddEmployee.Text = "Add Employee"
+        Me.btnAddEmployee.UseVisualStyleBackColor = True
+        '
+        'btnTermEmployee
+        '
+        Me.btnTermEmployee.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.btnTermEmployee.FlatAppearance.BorderColor = System.Drawing.Color.Silver
+        Me.btnTermEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnTermEmployee.Location = New System.Drawing.Point(106, 222)
+        Me.btnTermEmployee.Name = "btnTermEmployee"
+        Me.btnTermEmployee.Size = New System.Drawing.Size(165, 23)
+        Me.btnTermEmployee.TabIndex = 11
+        Me.btnTermEmployee.Text = "Terminate Employee"
+        Me.btnTermEmployee.UseVisualStyleBackColor = True
+        '
         'AdminPage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(654, 391)
+        Me.Controls.Add(Me.btnTermEmployee)
+        Me.Controls.Add(Me.btnAddEmployee)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.lblTime3)
         Me.Controls.Add(Me.Label3)
@@ -186,5 +214,7 @@ Partial Class AdminPage
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Timer2 As System.Windows.Forms.Timer
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
+    Friend WithEvents btnAddEmployee As System.Windows.Forms.Button
+    Friend WithEvents btnTermEmployee As System.Windows.Forms.Button
 
 End Class

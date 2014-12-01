@@ -43,10 +43,10 @@
         For Each tempEmp As Employee In lisEmployees
             fswEmployees.WriteLine(tempEmp.userId & "," & tempEmp.password & "," & _
                                    tempEmp.fName & "," & tempEmp.lName & "," & tempEmp.address1 & "," & _
-                                   tempEmp.address2 & "," & tempEmp.city & "," * tempEmp.state & "," & _
-                                   tempEmp.zip & "," & tempEmp.phone & "," & tempEmp.SSN & "," & tempEmp.admin)
+                                   tempEmp.address2 & "," & tempEmp.city & "," & tempEmp.state & "," & _
+                                   tempEmp.zip & "," & tempEmp.phone & "," & tempEmp.SSN & "," & CStr(tempEmp.admin))
         Next
-
+        fswEmployees.Close()
 
     End Sub
 
